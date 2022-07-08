@@ -1,7 +1,22 @@
+import React from 'react';
+import Book from '../components/Book';
+import AddBook from '../components/AddBook';
+
 function Books() {
+  const state = {
+    books: [
+      {
+        id: 1,
+        genre: 'Self Development',
+        title: 'The power of Habit',
+        author: 'James Clear',
+      },
+    ],
+  };
   return (
     <>
-      <h2>List of Books</h2>
+      <Book books={state.books} />
+      <AddBook />
     </>
   );
 }

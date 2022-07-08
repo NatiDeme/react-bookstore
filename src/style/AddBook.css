@@ -1,0 +1,13 @@
+.add-contain {
+    display: flex;
+    gap: 3rem;
+    padding: 0 1rem;
+}
+
+.add-title {
+    padding: 0 1rem;
+}
+
+.add-sep {
+    margin: 0 1rem;
+}
