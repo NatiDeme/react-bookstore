@@ -1,0 +1,21 @@
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  border-bottom: 0.5px solid rgb(184, 182, 182);
+}
+
+.lists {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.listsh {
+  color: rgb(97, 100, 198);
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 2rem;
+}
