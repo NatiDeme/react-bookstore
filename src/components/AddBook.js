@@ -12,8 +12,9 @@ function Books() {
     author: '',
   };
   const [mybook, setMyBook] = useState(newbook);
-  const addNew = () => {
+  const addNew = (e) => {
     dispatch(addBook(mybook));
+    e.target.value = '';
   };
 
   const hndleMyBooks = (e) => {

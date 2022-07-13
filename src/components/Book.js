@@ -15,7 +15,7 @@ function Book(props) {
     <>
       <div className="book-card">
         {mee.map((i) => (
-          <div key={i} className="name-wrap">
+          <div key={i.id} className="name-wrap">
             <p className="book-title">{i.genre}</p>
             <p className="book-title">{i.title}</p>
             <p className="book-author">{i.author}</p>
