@@ -1,5 +1,5 @@
 const initialState = [];
-const CHECK_STATUS = 'react-bookstore/category/checkStatus';
+const CHECK_STATUS = 'bookstore/category/checkStatus';
 
 const statusChecker = () => ({
   type: CHECK_STATUS,
