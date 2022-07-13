@@ -45,6 +45,10 @@ Feel free to check the [issues page](../../issues/).
 
 Give a ⭐️ if you like this project!
 
+## Acknowledgement
+
+Thank you for Microverse and my programming partners!
+
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
