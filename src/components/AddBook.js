@@ -20,13 +20,6 @@ function Books() {
     category.value = '';
   };
 
-  // const hndleMyBooks = (e) => {
-  //   setMyBook((mybook) => ({
-  //     ...mybook,
-  //     id: uuidv4(),
-  //     [e.target.name]: e.target.value,
-  //   }));
-  // };
   return (
     <>
       <hr className="add-sep" />
