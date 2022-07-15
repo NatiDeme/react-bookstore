@@ -1,20 +1,21 @@
 * {
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 
 .cate {
   color: #121212;
 }
+
 .nav-list {
   list-style: none;
-  margin:0;
+  margin: 0;
   display: flex;
   gap: 2rem;
   align-items: center;
   background-color: white;
 }
 
-.nav-list li{
+.nav-list li {
   background-color: white;
 }
 
@@ -30,7 +31,6 @@
 .lists {
   width: 3.688rem;
   height: 1rem;
-  font-family: Montserrat;
   font-size: 0.813rem;
   font-weight: normal;
   font-stretch: normal;
@@ -43,7 +43,7 @@
 }
 
 .listsh {
-  color: #0290FF;
+  color: #0290ff;
   text-decoration: none;
   font-weight: 800;
   font-size: 2rem;
@@ -52,7 +52,7 @@
 
 .image {
   height: 1.5rem;
-  color: #0290FF;
+  color: #0290ff;
   background-color: white;
 }
 
