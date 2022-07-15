@@ -21,18 +21,20 @@ function Books() {
   };
 
   return (
-    <>
-      <hr className="add-sep" />
-      <h2 className="add-title">ADD NEW BOOK</h2>
-      <div>
+    <div className="wrap-all">
+      <div className="only-head">
+        <div className="add-sep" />
+        <h2 className="add-title">ADD NEW BOOK</h2>
+      </div>
+      <div className="wrap-form">
         <form className="add-contain" onSubmit={addNew}>
           <input placeholder="Book title" name="title" id="title" required />
           <input placeholder="Author" name="author" id="author" required />
           <input placeholder="Category" name="category" id="category" required />
-          <button type="submit">ADD BOOK</button>
+          <button type="submit" id="sub-btn">ADD BOOK</button>
         </form>
       </div>
-    </>
+    </div>
   );
 }
 
